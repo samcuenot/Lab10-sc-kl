@@ -44,7 +44,8 @@ class TestCalculator(unittest.TestCase):
     #     # with self.assertRaises(<INSERT_ERROR_TYPE>):
     #     #     logarithm(0, 5)
     #     fill in code
-
+        with self.assertRaises(ValueError):
+            logarithm(0,5)
 
     def test_hypotenuse(self): # 3 assertions
         self.assertEqual(hypotenuse(-3, -4), 5)
@@ -57,6 +58,10 @@ class TestCalculator(unittest.TestCase):
     #     #    square_root(NUM)
     #     # Test basic function
     #     fill in code
+        with self.assertRaises(ValueError):
+            square_root(-1)
+        self.assertAlmostEqual(square_root(4.0), 2.0)
+        self.assertAlmostEqual(square_root(9), 3.0)
     ##########################
 
 # Do not touch this
