@@ -76,7 +76,7 @@ class TestCalculator(unittest.TestCase):
     #     # Test basic function
     #     fill in code
         with self.assertRaises(ValueError):
-            square_root(-1, 0)
+            square_root(-1)
         self.assertAlmostEqual(square_root(4.0), 2.0)
         self.assertAlmostEqual(square_root(9), 3.0)
     ##########################
