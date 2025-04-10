@@ -22,7 +22,7 @@ def mul(a, b):
 def div(a, b):
     if b == 0:
         raise ZeroDivisionError
-    return a / b
+    return b / a
 
 def logarithm(a, b):
     return math.log(a, b)
