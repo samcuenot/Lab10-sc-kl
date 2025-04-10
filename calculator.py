@@ -31,7 +31,7 @@ def exp(a, b):
     return a**b
 
 def square_root(a):
-    if a > 0:
+    if a < 0:
         raise ValueError
     return math.sqrt(a)
 
