@@ -30,6 +30,8 @@ def divide(a, b):
     return b / a
 
 def logarithm(a, b):
+    if a < 0 or b < 0:
+        raise ValueError
     return math.log(a, b)
 
 def exponent(a, b):
