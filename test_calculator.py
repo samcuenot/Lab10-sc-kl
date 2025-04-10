@@ -45,6 +45,7 @@ class TestCalculator(unittest.TestCase):
     #     #     logarithm(0, 5)
     #     fill in code
 
+
     def test_hypotenuse(self): # 3 assertions
         self.assertEqual(hypotenuse(-3, -4), 5)
         self.assertEqual(hypotenuse(3, 4), 5)
