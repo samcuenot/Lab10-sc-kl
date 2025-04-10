@@ -1,5 +1,4 @@
 # https://github.com/samcuenot/Lab10-sc-kl.git
-
 """
 calculator.py
 - Defines functions used to create a simple calculator
