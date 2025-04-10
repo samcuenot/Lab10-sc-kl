@@ -1,4 +1,6 @@
 # https://github.com/samcuenot/Lab10-sc-kl.git
+# Partner 1: Samantha Cuenot
+# Partner 2: Kayla Le
 """
 calculator.py
 - Defines functions used to create a simple calculator
